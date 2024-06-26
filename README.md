@@ -10,6 +10,6 @@ This API provides a service for classifying audio files as either dysarthric or 
 ## Endpoint
 - **POST /predict**
 
--- **Request Body:** multipart/form-data containing a WAV audio file.
+- **Request Body:** multipart/form-data containing a WAV audio file.
 
--- **Response:** JSON object with a prediction label (Dysarthric or Normal voice) or an error message if the file format is invalid or if there is an error during prediction.
+- **Response:** JSON object with a prediction label (Dysarthric or Normal voice) or an error message if the file format is invalid or if there is an error during prediction.
